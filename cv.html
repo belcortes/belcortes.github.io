@@ -1,0 +1,596 @@
+ <div id="jpedal" style="position:relative; width: 935px; height: 1210px; overflow: hidden; margin: 0 auto; box-shadow: 0 2px 6px rgba(100, 100, 100, 0.5);">
+
+        <!-- Begin shared CSS values -->
+        <!--[if lt IE 9]><style type="text/css">.t div div{zoom: 25%;}</style><![endif]-->
+        <style type="text/css" >
+        .t {
+          position: absolute;
+          -webkit-transform-origin: top left;
+          -moz-transform-origin: top left;
+          -o-transform-origin: top left;
+          -ms-transform-origin: top left;
+          -webkit-transform: scale(0.25);
+          -moz-transform: scale(0.25);
+          -o-transform: scale(0.25);
+          -ms-transform: scale(0.25);
+          z-index: 1;
+        }
+        .t div div {
+          position:absolute;
+          white-space:nowrap;
+          overflow:visible;
+        }
+        </style>
+        <!-- End shared CSS values -->
+
+        <!-- Begin shared JS -->
+        <script type="text/javascript">
+
+        // Ensure that we're not replacing any onload events
+        function addLoadEvent(func) {
+          var oldonload = window.onload;
+          if (typeof window.onload != 'function') {
+            window.onload = func;
+          } else {
+            window.onload = function() {
+              if (oldonload) {
+                oldonload();
+              }
+              func();
+            }
+          }
+        }
+        addLoadEvent(function(){load1();});
+
+        function adjustWordSpacing(divName,actualWidth) {
+
+          var el = document.getElementById(divName);
+          var rawWidth=el.offsetWidth;
+          if(actualWidth>rawWidth){
+            var spacing= 0;
+            var s=spacing+'px';
+            el.style.wordSpacing = s;
+            rawWidth=el.offsetWidth;
+
+            var diff=rawWidth-actualWidth;
+            if(diff<0)
+              diff=-diff;
+            var newDiff=diff-1;
+
+            while (spacing<40 && (newDiff===diff || newDiff<diff)){
+
+              diff=newDiff;
+              spacing= spacing+1;
+
+              s=spacing+'px';
+              el.style.wordSpacing = s;
+
+              newDiff=el.offsetWidth-actualWidth;
+              if(newDiff<0)
+                newDiff=-newDiff;
+            }
+            if(diff<=newDiff)
+              spacing=spacing-1;
+            s=spacing+'px';
+            el.style.wordSpacing =s;
+          }
+        }
+
+        </script>
+        <!-- End shared JS -->
+
+
+        <!-- Begin inline CSS -->
+        <style type="text/css" >
+
+        #t1_1{left:1428px;top:116px;}
+        #t2_1{left:1592px;top:240px;}
+        #t3_1{left:216px;top:304px;}
+        #t4_1{left:216px;top:616px;}
+        #t5_1{left:1636px;top:304px;}
+        #t6_1{left:1956px;top:304px;}
+        #t7_1{left:1916px;top:304px;}
+        #t8_1{left:3108px;top:304px;}
+        #t9_1{left:216px;top:372px;}
+        #ta_1{left:668px;top:372px;}
+        #tb_1{left:712px;top:372px;}
+        #tc_1{left:2852px;top:372px;}
+        #td_1{left:3176px;top:376px;}
+        #te_1{left:3216px;top:372px;}
+        #tf_1{left:3364px;top:372px;}
+        #tg_1{left:3392px;top:372px;}
+        #th_1{left:216px;top:440px;}
+        #ti_1{left:784px;top:440px;}
+        #tj_1{left:820px;top:440px;}
+        #tk_1{left:2976px;top:440px;}
+        #tl_1{left:216px;top:1700px;}
+        #tm_1{left:216px;top:1768px;}
+        #tn_1{left:216px;top:3308px;}
+        #to_1{left:216px;top:3376px;}
+        #tp_1{left:712px;top:1692px;}
+        #tq_1{left:3200px;top:1700px;}
+        #tr_1{left:712px;top:1760px;}
+        #ts_1{left:2824px;top:1772px;}
+        #tt_1{left:712px;top:1828px;}
+        #tu_1{left:712px;top:1888px;}
+        #tv_1{left:712px;top:1948px;}
+        #tw_1{left:712px;top:2008px;}
+        #tx_1{left:3200px;top:2016px;}
+        #ty_1{left:712px;top:2076px;}
+        #tz_1{left:2996px;top:2084px;}
+        #t10_1{left:712px;top:2144px;}
+        #t11_1{left:712px;top:2200px;}
+        #t12_1{left:712px;top:2260px;}
+        #t13_1{left:712px;top:2320px;}
+        #t14_1{left:3180px;top:2328px;}
+        #t15_1{left:712px;top:2388px;}
+        #t16_1{left:3300px;top:2396px;}
+        #t17_1{left:712px;top:2456px;}
+        #t18_1{left:712px;top:2516px;}
+        #t19_1{left:712px;top:2576px;}
+        #t1a_1{left:3200px;top:2584px;}
+        #t1b_1{left:712px;top:2644px;}
+        #t1c_1{left:2996px;top:2652px;}
+        #t1d_1{left:712px;top:2712px;}
+        #t1e_1{left:712px;top:2768px;}
+        #t1f_1{left:712px;top:2828px;}
+        #t1g_1{left:712px;top:2888px;}
+        #t1h_1{left:3212px;top:2896px;}
+        #t1i_1{left:712px;top:2956px;}
+        #t1j_1{left:2996px;top:2964px;}
+        #t1k_1{left:712px;top:3024px;}
+        #t1l_1{left:712px;top:3084px;}
+        #t1m_1{left:712px;top:3140px;}
+        #t1n_1{left:712px;top:612px;}
+        #t1o_1{left:3200px;top:620px;}
+        #t1p_1{left:712px;top:680px;}
+        #t1q_1{left:3292px;top:680px;}
+        #t1r_1{left:712px;top:740px;}
+        #t1s_1{left:820px;top:812px;}
+        #t1t_1{left:712px;top:936px;}
+        #t1u_1{left:3200px;top:944px;}
+        #t1v_1{left:712px;top:1004px;}
+        #t1w_1{left:3200px;top:1012px;}
+        #t1x_1{left:712px;top:1132px;}
+        #t1y_1{left:3180px;top:1140px;}
+        #t1z_1{left:712px;top:1200px;}
+        #t20_1{left:3292px;top:1208px;}
+        #t21_1{left:712px;top:1328px;}
+        #t22_1{left:976px;top:1384px;}
+        #t23_1{left:1556px;top:1384px;}
+        #t24_1{left:976px;top:1444px;}
+        #t25_1{left:1556px;top:1444px;}
+        #t26_1{left:976px;top:1504px;}
+        #t27_1{left:1556px;top:1504px;}
+        #t28_1{left:712px;top:3304px;}
+        #t29_1{left:3180px;top:3312px;}
+        #t2a_1{left:712px;top:3372px;}
+        #t2b_1{left:3272px;top:3384px;}
+        #t2c_1{left:712px;top:3440px;}
+        #t2d_1{left:712px;top:3500px;}
+        #t2e_1{left:3212px;top:3508px;}
+        #t2f_1{left:712px;top:3568px;}
+        #t2g_1{left:3280px;top:3576px;}
+        #t2h_1{left:712px;top:3636px;}
+        #t2i_1{left:712px;top:3692px;}
+        #t2j_1{left:712px;top:3752px;}
+        #t2k_1{left:3192px;top:3760px;}
+        #t2l_1{left:712px;top:3820px;}
+        #t2m_1{left:3276px;top:3832px;}
+        #t2n_1{left:712px;top:3888px;}
+        #t2o_1{left:712px;top:3948px;}
+        #t2p_1{left:3180px;top:3956px;}
+        #t2q_1{left:712px;top:4016px;}
+        #t2r_1{left:3276px;top:4028px;}
+        #t2s_1{left:712px;top:4084px;}
+        #t2t_1{left:712px;top:4144px;}
+        #t2u_1{left:712px;top:4312px;}
+        #t2v_1{left:712px;top:4372px;}
+        #t2w_1{left:712px;top:4428px;}
+        #t2x_1{left:712px;top:4488px;}
+        #t2y_1{left:712px;top:4548px;}
+        #t2z_1{left:216px;top:4308px;}
+        #t30_1{left:216px;top:4380px;}
+
+        .s5_1{
+          FONT-SIZE: 57px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(20,18,17);
+          FONT-WEIGHT: lighter;
+        }
+
+        .s4_1{
+          FONT-SIZE: 57px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(166,166,166);
+          FONT-WEIGHT: bold;
+        }
+
+        .s9_1{
+          FONT-SIZE: 48px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(0,0,0);
+        }
+
+        .s7_1{
+          FONT-SIZE: 57px;
+          FONT-FAMILY: TimesNewRomanPSMT1;
+          color: rgb(20,18,17);
+        }
+
+        .s12_1{
+          FONT-SIZE: 55px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(0,0,0);
+          FONT-STYLE: italic;
+        }
+
+        .s6_1{
+          FONT-SIZE: 24px;
+          FONT-FAMILY: JMYKZN-Swiss721BT-Light1;
+          color: rgb(20,18,17);
+        }
+
+        .s11_1{
+          FONT-SIZE: 48px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(0,0,0);
+          FONT-WEIGHT: lighter;
+        }
+
+        .s10_1{
+          FONT-SIZE: 57px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(0,0,0);
+          FONT-STYLE: italic;
+        }
+
+        .s8_1{
+          FONT-SIZE: 57px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(0,0,0);
+          FONT-WEIGHT: bold;
+        }
+
+        .s1_1{
+          FONT-SIZE: 110px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(20,18,17);
+          FONT-WEIGHT: bold;
+        }
+
+        .s3_1{
+          FONT-SIZE: 57px;
+          FONT-FAMILY: Helvetica, Arial, sans-serif;
+          color: rgb(20,18,17);
+          FONT-WEIGHT: bold;
+        }
+
+        .s2_1{
+          FONT-SIZE: 57px;
+          FONT-FAMILY: JMYKZN-Swiss721BT-Light1;
+          color: rgb(20,18,17);
+        }
+
+        </style>
+        <!-- End inline CSS -->
+
+        <!-- Begin embedded font definitions -->
+        <style type="text/css" >
+
+        @font-face {
+          font-family: JMYKZN-Swiss721BT-Light1;
+          src: url("index/fonts/JMYKZN-Swiss721BT-Light.otf");
+        }
+
+        @font-face {
+          font-family: TimesNewRomanPS-BoldMT1;
+          src: url("index/fonts/TimesNewRomanPS-BoldMT.otf");
+        }
+
+        @font-face {
+          font-family: TimesNewRomanPSMT1;
+          src: url("index/fonts/TimesNewRomanPSMT.otf");
+        }
+
+        </style>
+        <!-- End embedded font definitions -->
+
+        <!-- Begin text definitions (Positioned/styled in CSS) -->
+        <div class="t">
+        <div class="s1_1">
+        <div id="t1_1">ISABEL CORTES</div>
+        </div>
+        <div class="s2_1">
+        <div id="t2_1">icortes@fordham.edu</div>
+        </div>
+        <div class="s3_1">
+        <div id="t3_1">Home Address</div>
+        </div>
+        <div class="s4_1">
+        <div id="t4_1">EDUCATION</div>
+        </div>
+        <div class="s2_1">
+        <div id="t5_1">(646) - 334 </div>
+        <div id="t6_1">7254</div>
+        <div id="t7_1">-</div>
+        </div>
+        <div class="s3_1">
+        <div id="t8_1">Local Address</div>
+        </div>
+        <div class="s5_1">
+        <div id="t9_1">SQS 316 Bloco B</div>
+        </div>
+        <div class="s2_1">
+        <div id="ta_1"># </div>
+        </div>
+        <div class="s5_1">
+        <div id="tb_1">404</div>
+        <div id="tc_1">510 West 52</div>
+        </div>
+        <div class="s6_1">
+        <div id="td_1">nd</div>
+        </div>
+        <div class="s5_1">
+        <div id="te_1">Street</div>
+        </div>
+        <div class="s7_1">
+        <div id="tf_1">,</div>
+        </div>
+        <div class="s5_1">
+        <div id="tg_1"># 7A</div>
+        <div id="th_1">Brasilia, Brazil 70 387</div>
+        </div>
+        <div class="s7_1">
+        <div id="ti_1">-</div>
+        </div>
+        <div class="s5_1">
+        <div id="tj_1">020</div>
+        <div id="tk_1">New York, NY 10019</div>
+        </div>
+        <div class="s4_1">
+        <div id="tl_1">PROFESSIONAL</div>
+        <div id="tm_1">EXPERIENCE</div>
+        <div id="tn_1">LEADERSHIP</div>
+        <div id="to_1">ACTIVITIES</div>
+        </div>
+        <div class="s8_1">
+        <div id="tp_1">Sparks & Honey</div>
+        </div>
+        <div class="s9_1">
+        <div id="tq_1">New York, NY</div>
+        </div>
+        <div class="s10_1">
+        <div id="tr_1">Cultural Strategy/ Client Services Intern</div>
+        </div>
+        <div class="s9_1">
+        <div id="ts_1">September 2012-January 2013</div>
+        </div>
+        <div class="s11_1">
+        <div id="tt_1">+Engage in inter-department collaboration to facilitate production of content directed to prospective clients</div>
+        <div id="tu_1">+Research competitor’s branding and marketing strategies to create content for existing clients</div>
+        <div id="tv_1">+Monitor and contextualize culture in areas of science, technology and art to apply to clients</div>
+        </div>
+        <div class="s8_1">
+        <div id="tw_1">Cineflix Studios</div>
+        </div>
+        <div class="s9_1">
+        <div id="tx_1">New York, NY</div>
+        </div>
+        <div class="s10_1">
+        <div id="ty_1">Production Intern</div>
+        </div>
+        <div class="s9_1">
+        <div id="tz_1">May 2011-August 2011</div>
+        </div>
+        <div class="s11_1">
+        <div id="t10_1">+Assist producers in scouting prospective clients, and managing current businesses</div>
+        <div id="t11_1">+Research possible location strategies in over 12 States for the show “American Pickers”</div>
+        <div id="t12_1">+Assisted with lighting and props on set screening for the limited budget show “Free Range Parents”</div>
+        </div>
+        <div class="s8_1">
+        <div id="t13_1">Discovery Channel</div>
+        </div>
+        <div class="s9_1">
+        <div id="t14_1">New York, NY</div>
+        </div>
+        <div class="s10_1">
+        <div id="t15_1">Production Assistant</div>
+        </div>
+        <div class="s9_1">
+        <div id="t16_1">July 2011</div>
+        </div>
+        <div class="s11_1">
+        <div id="t17_1">+Assisted on the production of “Panning for Gold”, a segment on the show “Penn and Teller Tell a Lie”</div>
+        <div id="t18_1">+Collaborated on getting interviews from the public regarding the show</div>
+        </div>
+        <div class="s8_1">
+        <div id="t19_1">Fordham Law School Library</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1a_1">New York, NY</div>
+        </div>
+        <div class="s10_1">
+        <div id="t1b_1">Administrative Assistant</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1c_1">May 2011-August 2011</div>
+        </div>
+        <div class="s11_1">
+        <div id="t1d_1">+Update law journals (urban, international and environmental) on a daily basis</div>
+        <div id="t1e_1">+Manage the collection of books throughout the library</div>
+        <div id="t1f_1">+Oversee daily operations on behalf of students & faculty</div>
+        </div>
+        <div class="s8_1">
+        <div id="t1g_1">IPC World/Globo Internacional</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1h_1">Tokyo, Japan</div>
+        </div>
+        <div class="s10_1">
+        <div id="t1i_1">Television Department Intern</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1j_1">May 2010-August 2010</div>
+        </div>
+        <div class="s11_1">
+        <div id="t1k_1">+Conduct interviews for the show ”Planeta Brasil” in Tokyo metro area</div>
+        <div id="t1l_1">+Researched current movies and movie trends (oscars, movie festivals) to present on air on show “Agenda +”</div>
+        <div id="t1m_1">+Researched stories for possible future content for “Planeta Brasil”, “Agenda +” and the daily news show</div>
+        </div>
+        <div class="s8_1">
+        <div id="t1n_1">Fordham University</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1o_1">New York, NY</div>
+        <div id="t1p_1">Fordham College at Lincoln Center</div>
+        <div id="t1q_1">May 2012</div>
+        </div>
+        <div class="s10_1">
+        <div id="t1r_1">Bachelor of Arts in Mathematics</div>
+        </div>
+        <div class="s12_1">
+        <div id="t1s_1">Minor in Visual Arts with a concentration in Filmmaking</div>
+        </div>
+        <div class="s8_1">
+        <div id="t1t_1">Columbia University</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1u_1">New York, NY</div>
+        </div>
+        <div class="s10_1">
+        <div id="t1v_1">Summer Course in Business, Finance and Accounting</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1w_1">Summer 2007</div>
+        </div>
+        <div class="s8_1">
+        <div id="t1x_1">American Cooperative School of La Paz</div>
+        </div>
+        <div class="s9_1">
+        <div id="t1y_1">La Paz, Bolivia</div>
+        </div>
+        <div class="s10_1">
+        <div id="t1z_1">High School Diploma</div>
+        </div>
+        <div class="s9_1">
+        <div id="t20_1">May 2008</div>
+        </div>
+        <div class="s11_1">
+        <div id="t21_1">Relevant Coursework:</div>
+        <div id="t22_1">+ Probability</div>
+        <div id="t23_1">+ Differential Equations</div>
+        <div id="t24_1">+ Statistics</div>
+        <div id="t25_1">+ Abstract Algebra</div>
+        <div id="t26_1">+ Macro Economics</div>
+        <div id="t27_1">+ Discrete Mathematics</div>
+        </div>
+        <div class="s8_1">
+        <div id="t28_1">Fordham at Lincoln Center Movie Festival</div>
+        </div>
+        <div class="s9_1">
+        <div id="t29_1">La Paz, Bolivia</div>
+        </div>
+        <div class="s10_1">
+        <div id="t2a_1">Independent Filmmaker</div>
+        </div>
+        <div class="s9_1">
+        <div id="t2b_1">2005-2008</div>
+        </div>
+        <div class="s11_1">
+        <div id="t2c_1">+Directed, shot and edited a short film entitled “Bananafish” based on J.D. Salingers “A Perfect Day for Bananafish”</div>
+        </div>
+        <div class="s8_1">
+        <div id="t2d_1">Screenwriters in Tokyo</div>
+        </div>
+        <div class="s9_1">
+        <div id="t2e_1">Tokyo, Japan</div>
+        </div>
+        <div class="s12_1">
+        <div id="t2f_1">Participant</div>
+        </div>
+        <div class="s9_1">
+        <div id="t2g_1">June 2012</div>
+        </div>
+        <div class="s11_1">
+        <div id="t2h_1">+Attended workshop with director Doug Campbell - consisted of screenwriting, creating storyboards, and directing a few</div>
+        <div id="t2i_1">scenes</div>
+        </div>
+        <div class="s8_1">
+        <div id="t2j_1">Habitat for Humanity</div>
+        </div>
+        <div class="s9_1">
+        <div id="t2k_1">El Alto, Bolivia</div>
+        </div>
+        <div class="s10_1">
+        <div id="t2l_1">Volunteer</div>
+        </div>
+        <div class="s9_1">
+        <div id="t2m_1">2005-2008</div>
+        </div>
+        <div class="s11_1">
+        <div id="t2n_1">+Volunteered to work alongside members of a host community in El Alto to build affordable houses for people in need</div>
+        </div>
+        <div class="s8_1">
+        <div id="t2o_1">Unidad Educativa Erick Boulter</div>
+        </div>
+        <div class="s9_1">
+        <div id="t2p_1">La Paz, Bolivia</div>
+        </div>
+        <div class="s10_1">
+        <div id="t2q_1">Volunteer</div>
+        </div>
+        <div class="s9_1">
+        <div id="t2r_1">2005-2008</div>
+        </div>
+        <div class="s11_1">
+        <div id="t2s_1">+Volunteer to work at a facility for hearing impared children</div>
+        <div id="t2t_1">+Develop daily activities and encourage children to foster interests that extend beyond school work</div>
+        <div id="t2u_1">+Native ﬂuency in Portuguese. Fluent in Spanish</div>
+        <div id="t2v_1">+Advanced skills in Microsoft Office (Word, Excel, PowerPoint), Apple Keynote, and Final Cut Pro</div>
+        <div id="t2w_1">+Proficient in Adobe Creative Suite (Photoshop, Illustrator, InDesign), Darkroom and SLR photography, as well as Super 8,</div>
+        <div id="t2x_1">Bolex, and Pentax cameras</div>
+        <div id="t2y_1">+Experience with HTML, CSS, JavaScript, Python and Adobe Dreamweaver</div>
+        </div>
+        <div class="s4_1">
+        <div id="t2z_1">SKILLS &</div>
+        <div id="t30_1">INTERESTS</div>
+        </div>
+        </div>
+        <!-- End text definitions -->
+
+        <!-- Begin page background -->
+        <div id="pg1Overlay" style="width:100%; height:100%; position:absolute; z-index:0; background-color:rgba(0,0,0,0);"></div>
+        <div id="pg1"><img src="index/1.png" id="pdf1" style="width:935px; height:1210px; background-color:white;"/></div>
+
+        <!-- End page background -->
+
+        <!-- Begin page loading JS -->
+        <script type="text/javascript">
+        var f1 = [['t1_1',896],['t3_1',408],['t5_1',263],['t8_1',398],['t9_1',447],['tc_1',321],['tg_1',118],['th_1',562],['tk_1',534],['tp_1',446],['tq_1',312],['tr_1',1026],['ts_1',687],['tt_1',2394],['tu_1',2134],['tv_1',2071],['tw_1',441],['tx_1',312],['ty_1',445],['tz_1',515],['t10_1',1898],['t11_1',1991],['t12_1',2258],['t13_1',525],['t14_1',312],['t15_1',533],['t16_1',213],['t17_1',2287],['t18_1',1596],['t19_1',804],['t1a_1',312],['t1b_1',621],['t1c_1',515],['t1d_1',1750],['t1e_1',1226],['t1f_1',1285],['t1g_1',843],['t1h_1',299],['t1i_1',751],['t1j_1',515],['t1k_1',1563],['t1l_1',2463],['t1m_1',2353],['t1n_1',547],['t1o_1',312],['t1p_1',775],['t1q_1',218],['t1r_1',826],['t1s_1',1366],['t1t_1',564],['t1u_1',312],['t1v_1',1400],['t1w_1',312],['t1x_1',1103],['t1y_1',330],['t1z_1',545],['t20_1',218],['t21_1',488],['t22_1',283],['t23_1',522],['t24_1',247],['t25_1',427],['t26_1',448],['t27_1',532],['t28_1',1159],['t29_1',330],['t2a_1',613],['t2c_1',2592],['t2d_1',642],['t2e_1',299],['t2g_1',232],['t2h_1',2708],['t2j_1',574],['t2k_1',320],['t2n_1',2631],['t2o_1',870],['t2p_1',330],['t2s_1',1325],['t2t_1',2226],['t2u_1',1084],['t2v_1',2174],['t2w_1',2737],['t2x_1',613],['t2y_1',1692],['t2z_1',265]];
+        var c1 = 0;
+        function fontAdjustments1(){;
+          if (c1<f1.length) {
+            adjustWordSpacing(f1[c1][0],f1[c1][1]);
+            c1++;
+            if (c1%10 == 0) {
+              setTimeout(function(){fontAdjustments1()},0);
+            } else {
+              fontAdjustments1();
+            }
+          }
+        };
+        function load1(){
+          var timeout = 100;
+          if (navigator.userAgent.match(/iPhone|iPad|iPod|Android/i)) timeout = 500;
+          setTimeout(fontAdjustments1,timeout);
+        }
+        </script>
+        <!-- End page loading JS -->
+
+        </div>
+        <div id="brand" style="margin:0 auto; width:94px; padding:5px; clear: both;">
+        <a href="http://www.idrsolutions.com" target="_blank">
+        <img title="PDF to HTML5 Conversion by IDRsolutions" alt="PDF to HTML5 Conversion by IDRsolutions" style="border:0;" src="icons/logo.png" />
+        </a>
+        </div>
