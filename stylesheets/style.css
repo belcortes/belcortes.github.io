@@ -3,7 +3,7 @@
   margin-top: 20px;
   margin-bottom: 10px;
   width: 80%;
-  height: 550px;
+  height: 100%;
 }
 
 #cv {
@@ -220,6 +220,7 @@
 }
 #projects-info {
   display: none;
+  text-align: center;
 }
 #worldcup {
   margin-top: 20px;
@@ -237,11 +238,12 @@
 #cupcake {
   margin-top: 20px;
   text-align: center;
+  margin-bottom: 100px;
 }
 
 .projects {
-  width: 900px;
-  height: 450px;
+  width: 800px;
+  height: 400px;
   box-shadow: 5px 5px 5px #888888;
 }
 
