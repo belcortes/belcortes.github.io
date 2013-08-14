@@ -3,7 +3,7 @@
   margin-top: 20px;
   margin-bottom: 10px;
   width: 80%;
-  height: 100%;
+  height: auto;
 }
 
 #cv {
@@ -53,7 +53,6 @@
   width: auto;
   margin: 0;
   font-size: 0;
-  /*border: 1px solid red;*/
 }
 
 .box h5 {
@@ -110,8 +109,8 @@
 #box8 {
   border-right: 1px solid #bfbfbf;
 }
-#box9 {
-
+#box9, h5 {
+  height: 180px;
 }
 
 .social_media {
@@ -148,6 +147,9 @@
   font-size: 90px;
   margin-bottom: 50px;
   margin-top: 50px;
+}
+.kerning{
+  letter-spacing: 2px;
 }
 #about p {
   font-size: 16px;
