@@ -24,12 +24,15 @@
   margin-bottom: 50px;
 }
 
+#download {
+  text-decoration: none;
+}
+
 .box1 {
   height: 175px;
   width: 24.8%;
   display: inline-block;
   vertical-align:top;
-
 }
 .box2 {
   height: 200px;
@@ -142,6 +145,7 @@
 #cv-info {
   display: none;
   text-align: center;
+  margin-bottom: 30px;
 }
 #about-info {
   display: none;
