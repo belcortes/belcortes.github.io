@@ -141,6 +141,9 @@
 #contact h1 {
   margin: 50px 0;
 }
+#contact p {
+  font-family: 'Quicksand', sans-serif;
+}
 
 #contact-info {
   /*width: 300px;*/
