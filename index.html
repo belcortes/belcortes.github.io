@@ -6,64 +6,71 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
     <script type="text/javascript" src='./javascripts/index.js'></script>
-    <link rel="stylesheet" type="text/css" href="./stylesheets/base.css">
+    <link rel="stylesheet" type="text/css" href="./stylesheets/normalize.css">
     <link rel="stylesheet" type="text/css" href="./stylesheets/skeleton.css">
     <link rel="stylesheet" type="text/css" href="./stylesheets/style.css">
     <link href='http://fonts.googleapis.com/css?family=Playfair+Display|Quicksand|Wire+One|Josefin+Sans|Elsie|Numans|Roboto+Slab|Courgette|Junge' rel='stylesheet' type='text/css'>
   </head>
   <body>
     <div id='main-page'>
-      <div class='row' id='container'>
-        <div class='row top'>
+      <div id='middle-div'>
+        <div class='container'>
+          <div class='row top'>
 
-          <div id='box0' class='box1 box'>
-            <h5><img class='photo' src="./images/img002.jpg"></h5>
+            <div id='box0' class='three columns box1 box'>
+              <img class='photo' src="./images/bel_car.jpg">
+            </div>
+
+            <div id='box1' class='three columns box1 box'>
+              <img class='photo' src="./images/bel_trees.jpg">
+            </div>
+
+            <div id='box2' class='three columns box1 box'>
+              <h5>CV</h5>
+            </div>
+
+            <div id='box3' class='three columns box1 box'>
+              <img class='photo' src="./images/bel_bouldering.jpg">
+            </div>
+
           </div>
-
-          <div id='box1' class='box1 box'>
-            <h5><img class='photo' src="./images/img005.jpg"></h5>
+          <div class='row middle'>
+            <div id='box4' class='four columns box2 box'>
+              <h5>About</h5>
+            </div>
+            <div id='name' class='five columns box2 box'>
+              <h5>Isabel Cortes</h5>
+            </div>
+            <div id='box5' class='four columns box2 box'>
+              <h5>Projects</h5>
+            </div>
           </div>
-
-          <div id='box2' class='box1 box'>
-            <h5>CV</h5>
+          <div class='row bottom'>
+            <div id='box6' class='three columns box3 box'>
+              <img class='photo' src="./images/bel_foggy.jpg">
+            </div>
+            <div id='box7' class='three columns box3 box'>
+              <h5>Contact</h5>
+            </div>
+            <div id='box8' class='three columns box3 box'>
+              <img class='photo' src="./images/bel_kayak.jpg">
+            </div>
+             <div id='box9' class='three columns box3 box'>
+              <img class='photo' src="./images/bel_fog_mountains.jpg">
+            </div>
           </div>
-
-          <div id='box3' class='box1 box'>
-            <h5><img class='photo' src="./images/img007.jpg"></h5>
-          </div>
-
         </div>
-        <div class='row middle'>
-          <div id='box4' class='box2 box'>
-            <h5>About</h5>
-          </div>
-          <div id='name' class='box2 box'>
-            <h5>Isabel Cortes</h5>
-          </div>
-          <div id='box5' class='box2 box'>
-            <h5>Projects</h5>
-          </div>
-        </div>
-        <div class='row bottom'>
-          <div id='box6' class='box3 box'>
-            <h5><img class='photo' src="./images/img008.jpg"></h5>
-          </div>
-          <div id='box7' class='box3 box'>
-            <h5>Contact</h5>
-          </div>
 
-
-          <div id='box8' class='box3 box'>
-            <h5><img class='photo' src="./images/img009.jpg"></h5>
-          </div>
-           <div id='box9' class='box3 box'>
-            <h5 id='media-block'><img class='photo' src="./images/img012.jpg"></h5>
-          </div>
-        </div>
       </div>
-      <footer id='footer'>
-        All rights reserved Isabel Cortes 2013 &#174;
-      </footer> 
+      
+      <!-- <div class='row' id='container'>
+        
+      </div> -->
+      
+      
+    </div>
+    <footer id='footer'>
+      All rights reserved Isabel Cortes 2017 &#174;
       <div id='icons'>
         <a href="https://www.facebook.com/profile.php?id=1622490101" target="_blank"><img src="./images/facebook.png" class='social_media'></a>
         <a href="http://www.linkedin.com/in/belcortes" target="_blank"><img src="./images/linkedin.png" class='social_media'></a>
@@ -71,13 +78,14 @@
         <a href="http://belcortes.tumblr.com/" target="_blank"><img src="./images/tumblr.png" class='social_media'></a>
         <a href="https://github.com/belcortes" target="_blank"><img src="./images/github.png" class='social_media'></a>
       </div>
-    </div>
+    </footer> 
+
     <div id='cv-info'>
       <a href="index.html"><img class='x' src="./images/x.jpg"></a>
       <br>
       <br>
-      <a id='download' href="https://s3.amazonaws.com/uploads.hipchat.com/39979/333165/bhqhwrshstg3jmq/isabel_resume.pdf" target="_blank">Download this CV</a>
-      <img id='cv' src="./images/cv_updated_web.gif">
+      <a id='download' href="./images/ic_resume.pdf" target="_blank">Download this CV</a>
+      <img id='cv' src="./images/ic_resume.jpg">
 
 
     </div>
@@ -85,20 +93,18 @@
       <a href="index.html" class='row'><img class='x' src="./images/x.jpg"></a>
       <div id='about' class='row'>
         <h1 class='kerning'>Hello</h1>
-        <h5 class='kerning' id='my-name'>My name is Isabel Cortes and I'm a Web Developer, Designer and Mathematician</h5>
+        <h5 class='kerning' id='my-name'>My name is Isabel Cortes and I'm a developer based in San Francisco</h5>
         <h3>A Bit About Me</h3>
-        <p>I am originally from Brazil, though my childhood consisted of moving to a new country about every three years. I finally settled in NYC for college at Fordham University, where I completed a B.A. in Mathematics. Now I am adventuring to the web development world.</p>
+        <p>I am originally from Brazil, though my childhood consisted of moving to a new country about every three years. I finally settled in NYC for college at Fordham University, where I completed a B.A. in Mathematics.</p>
         <p>My goal was to find a balance between Mathematics and Visual Arts, and I have found that in Web Development. </p>
+        <p>I'm currently working as a Software Engineer at a startup (<a href='appallicious.com' _target=blank>Appallicious</a>) based in San Francisco. Although I have been working as a full-stack developer, front-end development is what I'm most excited about. I love transforming beautiful designs into user friendly applications and websites.</p>
         <p></p>
         <br>
         <h3>Skills</h3>
-          <p>HTML / CSS / RUBY ON RAILS / JQUERY / JAVASCRIPT / AJAX / POSTGRESQL / SINATRA / GITHUB / PIVOTAL TRACKER / AGILE METHODOLOGY / TDD / RSPEC / CAPYBARA / CUCUMBER</p>
-        <br>
-        <h3>Interests</h3>
-        <p>My favorite things in life are traveling, good food, movies, and photography.</p>
+          <p>HTML / CSS / RUBY ON RAILS / JQUERY / JAVASCRIPT / ES6 / AJAX / POSTGRESQL / WORDPRESS / SINATRA / GITHUB / PIVOTAL TRACKER / AGILE METHODOLOGY / TDD / RSPEC / CAPYBARA / CUCUMBER</p>
         <br>
         <h3>What I'm looking for</h3>
-        <p>I am looking for a web developer position at a company that provides meaningful products and experiences for their clients to reach their maximum potential. I also want to be in a position that will allow me to grow as a professional and expand my technical skills.</p>
+        <p>I am looking for a developer position at a company that provides meaningful products and experiences for their clients to reach their maximum potential. I also want to be in a position that will allow me to grow as a professional and expand my technical skills.</p>
         <br>
       </div>
     </div>
@@ -111,22 +117,22 @@
       <div id='web'>
         <!-- Web -->
         <div class='row projects-div' id='calcacademy'>
+          <h3>SF Kids</h3>
+          <p>SFkids is funded by the Department of Children, Youth and Their Families(DCYF), and it is designed to help every family in every neighborhood of San Francisco</p>
+          <br>
+          <a href="http://www.sfkids.org/" target='_blank'><img src="./images/sfkids.png" class='projects'></a>
+        </div>
+        <div class='row projects-div' id='barnett'>
+          <h3>Michael Barnett Studio</h3>
+          <p>Personal website for Michael Barnett to display his sculptures.</p>
+          <br>
+          <a href="http://barnettsculptures.com/" target='_blank'><img src="./images/barnett.png" class='projects'></a>
+        </div>
+        <div class='row projects-div' id='calcacademy'>
           <h3>Calcacademy</h3>
           <p>Learn the basics of calculus!</p>
           <br>
           <a href="http://calcacademy.herokuapp.com/" target='_blank'><img src="./images/calcacademy.png" class='projects'></a>
-        </div>
-        <div class='row projects-div' id='worldcup'>
-          <h3>Joga Bonito</h3>
-          <p>Information about host cities for the 2014 World Cup in Brazil! Location, schedules, facts and pictures. Plan your trip by creating an itinerary and see all the games played during your stay!</p>
-          <br>
-          <a href="http://worldcup-app.herokuapp.com/" target='_blank'><img src="./images/worldcup.png" class='projects'></a>
-        </div>
-        <div class='row projects-div' id='cupcake'>
-          <h3>Cupcake Game</h3>
-          <p>Build your own cupcake with a game! Cupcake parts are cascading down a screen and you have to click on each part only once! But you only have 10 seconds and three lives..</p>
-          <br>
-          <a href="http://fathomless-fjord-8804.herokuapp.com/" target='_blank'><img src="./images/cupcake.png" class='projects'></a>
         </div>
       </div>
       <div id='graphic'>
@@ -135,6 +141,34 @@
       <div id='movie'>
         <!-- movies -->
       </div>
+    </div>
+    <div id='contact'>
+      <a href="index.html" class='row'>
+        <img class='x' src="./images/x.jpg">
+      </a>
+      <h1>Let's chat!</h1>
+      <p>I would love to hear from you!</p>
+      <p>You can email me <b>(belcortes@gmail.com)</b>, call me <b>(646) 334 7254</b> or fill out the form on this page. Thanks!</p>
+      <form id="ajax-contact" method="post" action="mailer.php">
+        <div class="field">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="field">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="field">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <div class="field">
+          <button type="submit">Send</button>
+        </div>
+      </form>
     </div>
   </body>
 </html>

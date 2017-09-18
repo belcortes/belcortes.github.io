@@ -1,24 +1,17 @@
-/*body {
-  position: relative;
+#main-page {
   display: table;
-}*/
-/*#main-page {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#middle-div {
   display: table-cell;
   vertical-align: middle;
-}*/
-#container {
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  width: 80%;
-  height: auto;
-  /*position: absolute;*/
 }
 
 #cv {
   margin: 0 auto;
-  height: 900;
-  width: 700;
+  height: 900px;
   border: 1px solid gray;
   box-shadow: 10px 10px 5px #888888;
   margin-bottom: 50px;
@@ -26,33 +19,33 @@
 
 #download {
   text-decoration: none;
+  float: left;
+  left: 50px;
+  position: relative;
 }
 
 .box1 {
   height: 175px;
-  width: 24.8%;
-  display: inline-block;
-  vertical-align:top;
+  /*display: inline-block;*/
+  /*vertical-align:top;*/
 }
 .box2 {
   height: 200px;
-  width: 33.13%;
-  display: inline-block;
-  vertical-align:top;
+  /*display: inline-block;*/
+  /*vertical-align:top;*/
   line-height: 200px;
 }
 .box3 {
   height: 175px;
-  width: 24.8%;
-  display: inline-block;
-  vertical-align:top;
+  /*display: inline-block;*/
+  /*vertical-align:top;*/
 }
 
 .top {
   height: 175px;
-  width: auto;
-  margin: 0;
-  font-size: 0;
+  /*width: auto;*/
+  /*margin: 0;*/
+  /*font-size: 0;*/
 }
 .middle {
   width: auto;
@@ -62,9 +55,9 @@
 }
 .bottom {
   height: 170px;
-  width: auto;
-  margin: 0;
-  font-size: 0;
+  /*width: auto;*/
+  /*margin: 0;*/
+  /*font-size: 0;*/
 }
 
 .box h5 {
@@ -91,6 +84,8 @@
 #box2 {
   border-right: 1px solid #bfbfbf;
   cursor: pointer;
+  font-size: 18px;
+  text-align: center;
 }
 #box3 {
 
@@ -117,6 +112,8 @@
 #box7 {
   border-right: 1px solid #bfbfbf;
   cursor: pointer;
+  font-size: 18px;
+  text-align: center;
 }
 #box8 {
   border-right: 1px solid #bfbfbf;
@@ -134,6 +131,15 @@
 #icons {
   float: right;
   margin-right: 55px;
+}
+
+#contact {
+  display: none;
+  text-align: center
+}
+
+#contact h1 {
+  margin: 50px 0;
 }
 
 #contact-info {
@@ -212,18 +218,17 @@
 .x {
   width: 30px;
   height: 30px;
-  float: right;
-  /*margin-left: 675px;*/
   margin-right: 20px;
   margin-top: 7px;
-  /*position: fixed;*/
+  position: fixed;
+  right: 0;
 }
 
 .photo {
   /*display: none;*/
   height: 120px;
   width: 180px;
-  opacity: 0.3;
+  /*opacity: 0.8;*/
   padding-top: 25px;
   -webkit-transition: all 1s;
   -moz-transition: all 1s;
@@ -242,6 +247,18 @@
   display: none;
   text-align: center;
 }
+
+#projects-info h1 {
+  text-align: center;
+  /*font-size: 90px;*/
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.projects-div {
+  margin-bottom: 120px;
+}
+
 #worldcup {
   margin-top: 20px;
   text-align: center;
@@ -269,9 +286,11 @@
 }
 
 #footer {
-  float: left;
   font-size: 10px;
   margin-left: 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 
