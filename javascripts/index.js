@@ -24,7 +24,7 @@ $(function() {
   })
 
   $('#box2').on('click', function(){
-    $('#main-page').fadeOut(1000, function(){$('#cv-info').fadeIn();});
+    $('#main-page').fadeOut(1000, function(){$('#projects-info').fadeIn();});
   });
   $('#cv-info, #x').on('click', function(){
     $('#cv-info').fadeOut(1000, function(){$('#main-page').fadeIn();});
@@ -34,7 +34,7 @@ $(function() {
     $('#main-page').fadeOut(1000, function(){$('#about-info').fadeIn();});
   });
   $('#box5').on('click', function(){
-    $('#main-page').fadeOut(1000, function(){$('#projects-info').fadeIn();})
+    $('#main-page').fadeOut(1000, function(){$('#cv-info').fadeIn();})
   });
 
 });
