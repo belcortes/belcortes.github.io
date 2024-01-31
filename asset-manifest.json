@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf92a9a1.css",
+    "main.js": "/static/js/main.315423ef.js",
+    "static/js/787.50b64124.chunk.js": "/static/js/787.50b64124.chunk.js",
+    "static/media/herexyz.png": "/static/media/herexyz.f4502d2a964c43dd2fde.png",
+    "static/media/oktane.png": "/static/media/oktane.1eccc4bf2bf15c25eccb.png",
+    "static/media/okta.png": "/static/media/okta.a7b495c6e5e7c876057a.png",
+    "static/media/swimdo.png": "/static/media/swimdo.c796e761d11dc2ab07b8.png",
+    "static/media/moodify.png": "/static/media/moodify.9c66a5628a9fb9fd6cc4.png",
+    "static/media/auth0.png": "/static/media/auth0.91c5657a3f6c34ca9830.png",
+    "static/media/stamen.png": "/static/media/stamen.b9969f4de58da8f5c41d.png",
+    "static/media/sfkids.png": "/static/media/sfkids.bb9cdef7a5c811a543c9.png",
+    "static/media/mdrc1.png": "/static/media/mdrc1.99c103b66c39b20dbcf2.png",
+    "static/media/bel-venice.jpg": "/static/media/bel-venice.d7d015b4ee993215d206.jpg",
+    "static/media/bel_kayak.jpg": "/static/media/bel_kayak.1901185ab714362c4715.jpg",
+    "static/media/bel-flowers.jpg": "/static/media/bel-flowers.56369b7db8f67f719669.jpg",
+    "index.html": "/index.html",
+    "main.bf92a9a1.css.map": "/static/css/main.bf92a9a1.css.map",
+    "main.315423ef.js.map": "/static/js/main.315423ef.js.map",
+    "787.50b64124.chunk.js.map": "/static/js/787.50b64124.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf92a9a1.css",
+    "static/js/main.315423ef.js"
+  ]
+}
