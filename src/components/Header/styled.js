@@ -88,7 +88,7 @@ export const SubMenu = styled.div`
     display: grid;
     grid-template-columns: 1fr;
     position: absolute;
-    top: 50px;
+    top: 52px;
     row-gap: 30px;
     width: calc(100% - 4px);
     margin: 0 20px;
@@ -98,8 +98,8 @@ export const SubMenu = styled.div`
     border-top: 0;
     background: #E9F1DF;
 
-    @media (min-width: 850px) {
-        // display: none;
+    @media (min-width: 600px) {
+        top: 82px;
     }
 
 `
