@@ -29,6 +29,7 @@ const Box = styled.div`
   font-size: 32px;
   text-decoration: none;
   border-radius: 16px;
+  cursor: pointer;
 `;
 
 const LinkBox = styled(Link)`
@@ -42,7 +43,7 @@ const LinkBox = styled(Link)`
   border-radius: 16px;
 
   &:hover {
-    background: none;
+    background: none !important;
     border: 2px solid black;
     color: black;
   }
@@ -86,7 +87,6 @@ export const Box6 = styled(Box)`
   color: #333333;
 `;
 export const Box7 = styled(LinkBox)`
-  
   background-color: #f27127;
   grid-column: auto / span 4;
 `;
