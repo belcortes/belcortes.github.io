@@ -13,7 +13,7 @@ const CVPage = () => (
   <S.Wrapper>
     <S.PageTitle>
       <span>CV</span>
-      <a href="./ic-resume.pdf" download style={{display: 'inline-block'}}>
+      <a href="https://drive.google.com/file/d/1CPcVA9Z5KgtfzpkEE0h3UtDdzlZVfman/view?usp=sharing" target="__blank">
         <S.Svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
           <path d="M64 0C28.7 0 0 28.7 0 64V448c0 35.3 28.7 64 64 64H320c35.3 0 64-28.7 64-64V160H256c-17.7 0-32-14.3-32-32V0H64zM256 0V128H384L256 0zM216 232V334.1l31-31c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-72 72c-9.4 9.4-24.6 9.4-33.9 0l-72-72c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l31 31V232c0-13.3 10.7-24 24-24s24 10.7 24 24z" />
         </S.Svg>
@@ -81,6 +81,12 @@ const CVPage = () => (
 
         <S.Row>
           <S.Cell></S.Cell>
+          <S.Cell>d3.js</S.Cell>
+          <S.Cell>{scale(4)}</S.Cell>
+        </S.Row>
+
+        <S.Row>
+          <S.Cell></S.Cell>
           <S.Cell>Node</S.Cell>
           <S.Cell>{scale(5)}</S.Cell>
         </S.Row>
@@ -112,7 +118,7 @@ const CVPage = () => (
         <S.Row>
           <S.Cell></S.Cell>
           <S.Cell>Figma</S.Cell>
-          <S.Cell>{scale(5)}</S.Cell>
+          <S.Cell>{scale(3)}</S.Cell>
         </S.Row>
       </S.TableBody>
     </S.Table>

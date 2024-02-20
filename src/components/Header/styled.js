@@ -148,6 +148,8 @@ export const ListItem = styled.li`
   border: 2px solid black;
   overflow: hidden;
   border-right: none;
+  display: flex;
+  align-items: center;
 
   &:first-of-type {
     // border-bottom-left-radius: 16px;

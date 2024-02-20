@@ -85,6 +85,7 @@ export const Box6 = styled(Box)`
   /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
   flex: 1;
   color: #333333;
+  cursor: auto;
 `;
 export const Box7 = styled(LinkBox)`
   background-color: #f27127;

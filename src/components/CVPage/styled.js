@@ -20,7 +20,7 @@ export const Svg = styled.svg`
 
   &:hover {
     path {
-        fill: #f2594b;
+      fill: #f2594b;
     }
   }
 `;
@@ -53,55 +53,65 @@ export const Caption = styled.caption`
   }
 `;
 
-
 const getColorForIndex = (index) => {
-    const colors = ['#d90754', '#d90467', '#f28322', '#f27127', '#f2594b'];
-    return colors[index % colors.length];
-  };
+  const colors = ["#d90754", "#d90467", "#f28322", "#f27127", "#f2594b"];
+  return colors[index % colors.length];
+};
 
 export const Row = styled.tr`
   &:hover {
     &:nth-child(5n + 1) {
-        background-color: ${() => getColorForIndex(0)};
-        color: #e9f1df;
+      background-color: ${() => getColorForIndex(0)};
+      color: #e9f1df;
     }
 
     &:nth-child(5n + 2) {
-        background-color: ${() => getColorForIndex(1)};
-        color: #e9f1df;
+      background-color: ${() => getColorForIndex(1)};
+      color: #e9f1df;
     }
 
     &:nth-child(5n + 3) {
-        background-color: ${() => getColorForIndex(2)};
-        color: #e9f1df;
+      background-color: ${() => getColorForIndex(2)};
+      color: #e9f1df;
     }
 
     &:nth-child(5n + 4) {
-        background-color: ${() => getColorForIndex(3)};
-        color: #e9f1df;
+      background-color: ${() => getColorForIndex(3)};
+      color: #e9f1df;
     }
 
     &:nth-child(5n + 5) {
-        background-color: ${() => getColorForIndex(4)};
-        color: #e9f1df;
+      background-color: ${() => getColorForIndex(4)};
+      color: #e9f1df;
     }
 
     &:first-of-type {
-        td:first-of-type {
-            border-radius: 14px 0 0 0;
-        }
-        td:last-of-type {
-            border-radius: 0 14px 0 0;
-        }
+      td:first-of-type {
+        border-radius: 14px 0 0 0;
+      }
+      td:last-of-type {
+        border-radius: 0 14px 0 0;
+      }
     }
 
     &:last-of-type {
+      td:first-of-type {
+        border-radius: 0 0 0 14px;
+      }
+      td:last-of-type {
+        border-radius: 0 0 14px 0;
+      }
+    }
+
+    @media (max-width: 600px) {
+      &:first-of-type {
         td:first-of-type {
-            border-radius: 0 0 0 14px;
+          border-radius: 0;
         }
         td:last-of-type {
-            border-radius: 0 0 14px 0;
+          border-radius: 0;
         }
+      }
     }
   }
 `;
@@ -112,7 +122,6 @@ export const Cell = styled.td`
 `;
 
 export const TableBody = styled.tbody`
-
   @media (max-width: 900px) {
     /* Styles for screens with a minimum width of 768px */
     // max-width: 600px;
@@ -131,10 +140,12 @@ export const ScaleDiv = styled.div`
   height: 20px;
   margin: 1px;
   border: 1px solid black;
-  background-color: ${({index, rating}) => index < rating ? 'black' : 'transparent'};
+  background-color: ${({ index, rating }) =>
+    index < rating ? "black" : "transparent"};
 
-    ${Row}:hover & {
-        border: 1px solid #e9f1df;
-        background-color: ${({index, rating}) => index < rating ? '#e9f1df' : 'inherit'};
-    }
+  ${Row}:hover & {
+    border: 1px solid #e9f1df;
+    background-color: ${({ index, rating }) =>
+      index < rating ? "#e9f1df" : "inherit"};
+  }
 `;
