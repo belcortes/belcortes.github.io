@@ -15,23 +15,23 @@ const AboutPage = () => (
         <p>
           I'm a software engineer based in San Francisco since 2014. With a
           passion for crafting elegant and functional user interfaces, I
-          specialize in front-end development, where I create beautiful designs
-          and take on challenging projects. I'm particularly interested in data
+          specialize in front-end and UI development. I'm particularly interested in data
           visualizations and anything web interactive, with a huge focus on accessibility.
         </p>
         <p>
           I've contributed to the success of Okta (and previously Auth0) for the
-          past four years, leading various projects and seamlessly adapting to
-          different teams. In a previous life I worked at a data visualization
+          past four and a half years, leading various projects and adapting to
+          different teams. My day to day consisted on working closely with designers and marketers to create pixel perfect components and pages.
+          In a previous life I worked at a data visualization
           agency (Stamen) and before that at a gov tech startup (Appallicious)
           where we worked hard to create applications aimed at post natural
           disaster recovery.
         </p>
         <p>
           Beyond the world of code, you'll find me indulging in my love for
-          movies, conquering new heights through climbing and hiking adventures,
-          hosting memorable dinner parties, cherishing moments with my little
-          one, whipping up culinary delights, and exploring the world through
+          movies, going on climbing and hiking adventures,
+          hosting dinner parties, cherishing moments with my little
+          one, cooking something new, and exploring the world through
           travel.
         </p>
       </S.Text>
