@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bf92a9a1.css",
+    "main.js": "/static/js/main.9db45cdb.js",
+    "static/js/787.50b64124.chunk.js": "/static/js/787.50b64124.chunk.js",
+    "static/media/stamen.webm": "/static/media/stamen.059f847db67462ce6a5e.webm",
+    "static/media/o-homepage.webm": "/static/media/o-homepage.a39be41d37377187df27.webm",
+    "static/media/mdrc.webm": "/static/media/mdrc.8a3a021fc2cfe02e1b34.webm",
+    "static/media/ciam-reco.webm": "/static/media/ciam-reco.2764537d00a80dda6359.webm",
+    "static/media/auth0.webm": "/static/media/auth0.3d3c006b85b0ddd736f8.webm",
+    "static/media/oktane.webm": "/static/media/oktane.bed32bcd2e84801152d5.webm",
+    "static/media/devdays.webm": "/static/media/devdays.a4fe83dcb2d46f690e15.webm",
+    "static/media/herexyz.png": "/static/media/herexyz.f4502d2a964c43dd2fde.png",
+    "static/media/swimdo.png": "/static/media/swimdo.c796e761d11dc2ab07b8.png",
+    "static/media/moodify.png": "/static/media/moodify.9c66a5628a9fb9fd6cc4.png",
+    "static/media/mdrc1.png": "/static/media/mdrc1.99c103b66c39b20dbcf2.png",
+    "static/media/bel-venice.jpg": "/static/media/bel-venice.d7d015b4ee993215d206.jpg",
+    "static/media/bel_kayak.jpg": "/static/media/bel_kayak.1901185ab714362c4715.jpg",
+    "static/media/bel-flowers.jpg": "/static/media/bel-flowers.56369b7db8f67f719669.jpg",
+    "index.html": "/index.html",
+    "main.bf92a9a1.css.map": "/static/css/main.bf92a9a1.css.map",
+    "main.9db45cdb.js.map": "/static/js/main.9db45cdb.js.map",
+    "787.50b64124.chunk.js.map": "/static/js/787.50b64124.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf92a9a1.css",
+    "static/js/main.9db45cdb.js"
+  ]
+}
