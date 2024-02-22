@@ -33,6 +33,11 @@ export const Img = styled.img`
   max-height: 260px;
 `;
 
+export const Video = styled.video`
+  width: 100%;
+  filter: grayscale(1);
+`;
+
 export const Title = styled.h2`
   bottom: 0;
   background: #e9f1df;
@@ -50,7 +55,7 @@ const getColorForIndex = (index) => {
 export const Box = styled.div`
   border-radius: 16px;
   border: 2px solid black;
-  height: 304px;
+  height: 282px;
   overflow: hidden;
 
   &:hover {

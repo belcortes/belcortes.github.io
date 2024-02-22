@@ -31,8 +31,7 @@ const AboutPage = () => (
           Beyond the world of code, you'll find me indulging in my love for
           movies, going on climbing and hiking adventures,
           hosting dinner parties, cherishing moments with my little
-          one, cooking something new, and exploring the world through
-          travel.
+          one, cooking something new, and traveling the world.
         </p>
       </S.Text>
       <S.ImgWrapper2>
